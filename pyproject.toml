@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "plato-tile-store"
+version = "0.1.0"
+description = "In-memory tile storage with JSONL persistence"
+license = {text = "MIT"}
+requires-python = ">=3.8"
